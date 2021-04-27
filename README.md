@@ -96,3 +96,9 @@ params:
 
 
 
+要注意的问题：
+
+下载文件的时候需要传入 
+
+Header中 Dropbox-API-Arg {"path":"tt/xx.txt"} 记得 把path这个数据转为json的数据 不然请求的时候老是报错
+
